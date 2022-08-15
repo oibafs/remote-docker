@@ -14,7 +14,7 @@ Available flex shapes:
 
 variable "shape" {
   type    = string
-  default = "VM.Standard.E4.Flex"
+  default = "VM.Standard.A1.Flex"
 }
 
 variable "how_many_nodes" {
@@ -29,10 +29,10 @@ variable "availability_domain" {
 
 variable "ocpus_per_node" {
   type    = number
-  default = 2
+  default = 1
 }
 
 variable "memory_in_gbs_per_node" {
   type    = number
-  default = 16
+  default = 8
 }
